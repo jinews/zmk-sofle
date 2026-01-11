@@ -83,7 +83,7 @@
 &trans  &trans        &trans        &trans        &trans        &trans          &mkp LCLK        &trans     &trans          &msc SCRL_UP    &msc SCRL_DOWN   &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp DOWN UP_ARROW>;
+            sensor-bindings = <&inc_dec_kp DOWN UP>;
         };
 
         layer_3 {
