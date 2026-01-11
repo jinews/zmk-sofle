@@ -17,8 +17,12 @@ manifest:
       revision: main 
     - name: zmk
       remote: zmkfirmware
-      #revision: main
+      revision: main
       revision: v3.5.0
       import: app/west.yml
+    - name: zephyr
+      remote: zmkfirmware
+      revision: v3.5.0           # <--- 여기에 v3.5.0을 적어야 합니다. (Zephyr OS 버전)
+      import: status/zephyr-extras.yml
   self:
     path: config
